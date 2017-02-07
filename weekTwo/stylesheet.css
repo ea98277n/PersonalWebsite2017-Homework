@@ -1,0 +1,83 @@
+body {
+	background-color: #5E6472;
+	background: url(http://webpage.pace.edu/ea98277n/finished/weekOne/images/bg.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	text-decoration: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 200px rgba(0,0,0,0.9) inset;
+    margin: 0px;
+}
+
+#container {
+	display: flex;
+	flex-direction: column;
+    padding-top: 80px;
+    position: relative;
+    
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#top{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#ea {
+	display: flex;
+	font-family: 'Pacifico', cursive;
+	font-size: 36px;
+	padding-bottom: 10px;
+}
+
+#navigation {
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-end;
+	position: absolute;
+	right: 0;
+	padding-top: 18px;
+}
+
+#icons {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+#page {
+	display: flex;
+	flex-direction: column;
+	background-color: #EFEFEF;
+	padding: 20px;
+	margin-top: 10px;
+	box-shadow: 0 0 3px #000000;
+}
+
+.fa {
+	color: #EFEFEF;
+	text-shadow: 0 0 3px #000000;
+}
+
+.opensans {
+	font-family: 'opensans', sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+#contact {
+	margin-left: auto;
+	margin-right: auto;
+}
